@@ -51,6 +51,7 @@ export default function Projects() {
             onSlideChange={() => console.log('slide change')}
             onSwiper={(swiper) => console.log(swiper)}
             // style={{ marginBottom: '100px'}}
+            //Just checking
             className='hei'
         >
             {projectsData.map(project => (
